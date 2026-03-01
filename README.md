@@ -77,3 +77,38 @@ cat results/vcf/filtered_variants.vcf
 ---
 
 **Author:** Abid Hussain | March 1, 2026
+
+---
+
+## 📊 Analysis Results
+
+**Variants Detected:** 50 high-quality SNPs
+- Quality scores: 104 - 153
+- Sequencing depth: 37 - 72x
+- Genomic range: 193,689 bp covered
+
+---
+
+## 📈 Visualizations (Google Colab)
+
+**Colab Notebook:** `colab/variant_analysis_brca1ipynb.ipynb`
+
+**Generated Figures:**
+1. `variant_analysis.png` - 4-panel analysis
+   - Panel 1: Variant positions across BRCA1
+   - Panel 2: Quality score distribution
+   - Panel 3: Read coverage distribution  
+   - Panel 4: Quality vs Depth relationship
+
+2. `variant_summary_table.png` - Statistics table
+   - Total variants: 50
+   - Quality metrics (min/max/mean)
+   - Depth metrics (min/max/mean)
+   - Genomic coverage range
+
+**How to Reproduce:**
+1. Open `colab/variant_analysis_brca1ipynb.ipynb` in Google Colab
+2. Upload `results/vcf/filtered_variants.vcf`
+3. Run all cells
+4. Download PNG visualizations
+
